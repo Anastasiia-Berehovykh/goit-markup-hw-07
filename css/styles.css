@@ -694,9 +694,11 @@ color: var(--title-text-color);
 .employees__list:not(:last-child) {
   margin-right: 30px;
 }
-.employees__name {
+.employees__portfolio{
   padding: 30px 0;
-  margin-top: 30px;
+}
+.employees__name {
+  margin-bottom: 10px;
   font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
@@ -705,7 +707,7 @@ letter-spacing: 0.03em;
 color: var(--title-text-color);
 }
 .employees__position{
-  margin-top: 10px;
+  margin-bottom: 16px;
   font-weight: 400;
 font-size: 16px;
 line-height: 1.19;
@@ -720,8 +722,6 @@ color: var(--primary-text-color);
 }
 .networks__item{
   margin-right: 10px;
-  margin-top: 16px;
-  margin-bottom: 30px;
 }
 .networks__item:last-child{
   margin-right: 0;
@@ -735,7 +735,7 @@ color: var(--primary-text-color);
   height: 44px;
   border-radius: 50%;
   border: none;
-  background: rgba(255, 255, 255, 0.1);
+  
   transition: color 250ms var(--timing-function),
     background-color 250ms var(--timing-function);
 }
@@ -1034,6 +1034,10 @@ footer .logo-studio {
   background-color: var(--bgr-footer-hiro);
   padding: 60px 0;
 }
+.footer__networks__link--inverse{
+  color: var(--white);
+  background: rgba(255, 255, 255, 0.1);
+}
 
 .footer-link .s-links {
   fill: var(--white);
@@ -1043,6 +1047,7 @@ footer .logo-studio {
   margin-left: 70px;
 }
 .footer-item {
+  margin-bottom: 20px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
