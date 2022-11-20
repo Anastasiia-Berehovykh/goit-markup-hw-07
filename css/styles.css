@@ -46,7 +46,7 @@ img {
   height: auto;
 }
 address {
-  // или через класс .footer-adress
+  
   font-style: normal;
 }
 button {
@@ -71,7 +71,7 @@ button {
 }
 .link {
   text-decoration: none;
-  // color: inherit;
+  color: inherit;
 }
 .page-header {
   border-bottom: 1px solid #ececec;
@@ -561,8 +561,7 @@ color: var(--white);
 /* feature */
 
 
-.feature__item{
-}
+
 
 .feature__title {
   margin-top: 0;
@@ -631,8 +630,7 @@ color: var(--title-text-color);
   position: relative;
 }
 
-.examples__item {
-}
+
 .examples__item{
   margin-left: 30px;
 }
@@ -749,22 +747,20 @@ color: var(--primary-text-color);
   height: 20px;
   fill: currentColor;
 }
-.teem .title-stuff {
-}
-/* .stuff {
+
+.stuff {
   background: #ffffff;
   /* material shadow v1 */
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-} */
-
-.s-links {
+}
+ .s-links {
   display: flex;
-  margin-top: 16px;
-  justify-content: center;
-} 
+  margin-top:16px;
+  justify-content:center;
+}
 
  .s-links .item {
   margin-right: 10px;
@@ -949,8 +945,7 @@ color: var(--primary-text-color);
   transition: color 250ms var(--timing-function),
     background-color 250ms var(--timing-function);
 }
-.clients .name {
-}
+
 .name .link:hover,
 .name .link:focus {
   color: var(--accent);
@@ -987,8 +982,7 @@ color: var(--primary-text-color);
 .adress .adress-auth:focus {
   color: var(--accent);
 }
-.adress {
-}
+
 .adress-list {
   font-style: normal;
   margin-top: 20px;
