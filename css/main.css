@@ -1,3 +1,17 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent: #2196f3;
+  --white: #ffffff;
+  --black: #000000;
+  --footer-auth: rgba(255, 255, 255, 0.6);
+  --secondary-bgr: #f5f4fa;
+  --primary-bgr: #f5f5f5;
+  --bgr-footer-hiro: #2f303a;
+  --icon-color: #afb1b8;
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -753,7 +767,19 @@ footer .logo-studio {
   display: flex;
   list-style-type: none;
 }
-.examples name {
+
+.examples__item {
+  margin-left: 30px;
+}
+.examples__item:first-child {
+  margin-left: 0;
+}
+
+.examples__image {
+  position: relative;
+}
+
+.examples__name {
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -775,16 +801,6 @@ footer .logo-studio {
   font-size: 14px;
   text-align: center;
   letter-spacing: 0.03em;
-}
-.examples image {
-  position: relative;
-}
-
-.examples__item {
-  margin-left: 30px;
-}
-.examples__item:first-child {
-  margin-left: 0;
 }
 
 .team {
@@ -900,7 +916,7 @@ footer .logo-studio {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.clients.item {
+.clients .item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
